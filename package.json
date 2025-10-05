@@ -1,0 +1,19 @@
+{
+  "name": "crc32",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/San-Andreas-Roleplay-ES/crc32.git",
+  "author": "Giancarlo <54486248+pigeooon@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
